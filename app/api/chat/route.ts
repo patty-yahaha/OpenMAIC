@@ -24,6 +24,7 @@ const log = createLogger('Chat API');
 
 // Allow streaming responses up to 60 seconds
 export const maxDuration = 60;
+export const runtime = 'nodejs';
 
 /**
  * POST /api/chat
